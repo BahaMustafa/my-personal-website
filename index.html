@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-     <title>Baha Mustafa - Web Developer</title>
-     <link rel="stylesheet" type="text/css" href="styles.css">
-     <script src="myScript.js"></script>
+    <title>Baha Mustafa - Web Developer</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="myScript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-
-    <h1>Hi, I'm <span class="name">Baha Mustafa</span>,</h1>
-
-    <h3 id="title"> and I'm a Software Developer. </h3>
-
-    <img src="./images/Stratford Accounting.png" alt="c">
-
-
-    <div class="button-container">
-      <button onclick="openResume()">know more about me</button>
-    </div>
-
-    <div id="resume-text" style="display: none;">
-      <button class="close-btn" onclick="closeResume()">X</button>
-      <h1>Hi, I'm Baha Mustafa, a beginner web developer and aspiring software engineer. I'm passionate about coding and love learning new skills and techniques to improve my craft.</p>
-        I started my coding journey on February 27, and since then I've been working on building my skills in HTML, CSS, and JavaScript. I'm always on the lookout for new ways to challenge myself and grow as a developer.</p>
+    <header>
+      <h1>Hi, I'm <span class="name">Baha Mustafa</span>,</h1>
+      <h3 id="title">and I'm a Software Developer.</h3>
+    </header>
+    <main>
+      <img src="./images/Stratford Accounting.png" alt="c">
+      <div class="button-container">
+        <button onclick="openResume()">know more about me</button>
+      </div>
+      <div id="resume-text" style="display: none;">
+        <button class="close-btn" onclick="closeResume()">X</button>
+        <h1>Hi, I'm Baha Mustafa, a beginner web developer and aspiring software engineer. I'm passionate about coding and love learning new skills and techniques to improve my craft.
+        I started my coding journey on February 27, and since then I've been working on building my skills in HTML, CSS, and JavaScript. I'm always on the lookout for new ways to challenge myself and grow as a developer.
         Thanks for visiting my website, and feel free to reach out if you have any questions or just want to chat about coding!</h1>
-    </div>
-
-    <button id="projects-btn" onclick="window.location.href='https://github.com/BahaMustafa'">My Projects</button>
-
+      </div>
+      <button id="projects-btn" onclick="window.location.href='https://github.com/BahaMustafa'">My Projects</button>
+    </main>
   </body>
 </html>
