@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
   <head>
      <title>Baha Mustafa - Web Developer</title>
+     <link rel="stylesheet" type="text/css" href="styles.css">
+     <script src="myScript.js"></script>
   </head>
-
   <body>
-
-  <h1>Hi, I'm Baha Mustafa,</h1>
-
-  <h3 id= "title"> and I'm a Software Developer </h3>
+    <h1>Hi, I'm <span class="name">Baha Mustafa</span>,</h1>
+    <h3 id="title"> and I'm a Software Developer. </h3>
     <img src="./images/Stratford Accounting.png" alt="c">
+    <div class="button-container">
+      <button onclick="openResume()">know more about me</button>
+    </div>
+    <div id="resume-text" style="display: none;">
+      <button class="close-btn" onclick="closeResume()">X</button>
+      <h1>Hi, I'm Baha Mustafa, a beginner web developer and aspiring software engineer. I'm passionate about coding and love learning new skills and techniques to improve my craft.</p>
+        I started my coding journey on February 27, and since then I've been working on building my skills in HTML, CSS, and JavaScript. I'm always on the lookout for new ways to challenge myself and grow as a developer.</p>
+        Thanks for visiting my website, and feel free to reach out if you have any questions or just want to chat about coding!</h1>
+    </div>
   </body>
-
-
 </html>
-
