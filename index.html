@@ -11,10 +11,10 @@
       <h1>Hi, I'm <span class="name">Baha Mustafa</span>,</h1>
       <h3 id="title">and I'm a Software Developer.</h3>
     </header>
-    <main>
-      <img src="./images/Stratford Accounting.png" alt="c">
+    <main id="main-comp">
       <div class="button-container">
         <button onclick="openResume()">know more about me</button>
+        <button id="projects-btn" onclick="window.location.href='https://github.com/BahaMustafa'">My Github</button>
       </div>
       <div id="resume-text" style="display: none;">
         <button class="close-btn" onclick="closeResume()">X</button>
@@ -22,7 +22,9 @@
         I started my coding journey on February 27, and since then I've been working on building my skills in HTML, CSS, and JavaScript. I'm always on the lookout for new ways to challenge myself and grow as a developer.
         Thanks for visiting my website, and feel free to reach out if you have any questions or just want to chat about coding!</h1>
       </div>
-      <button id="projects-btn" onclick="window.location.href='https://github.com/BahaMustafa'">My Projects</button>
+      <div class="img-container">
+        <img src="./images/Stratford Accounting.png" alt="c">
+      </div>
     </main>
   </body>
 </html>
